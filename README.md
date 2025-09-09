@@ -1,9 +1,9 @@
-🔥🔫 Image Weapon and Fire Detection System using MobileNet
+🔥🔫 Image Weapon and Fire Detection System using NASA Net
 📌 Overview
 
-This project implements a real-time image classification system that detects weapons (e.g., guns, knives) and fire hazards using the MobileNet algorithm. The system is designed for security monitoring and public safety, where quick and accurate detection is crucial.
+This project implements a real-time image classification system that detects weapons (e.g., guns, knives) and fire hazards using the NASA Net algorithm (Xception-based CNN). The system is designed for security monitoring and public safety, where quick and accurate detection is crucial.
 
-By leveraging deep learning with MobileNet, the system achieves high accuracy while remaining lightweight, making it suitable for edge devices, CCTV surveillance, and mobile platforms.
+By leveraging deep learning with NASA Net, the system achieves high accuracy while maintaining efficient performance, making it suitable for edge devices, CCTV surveillance, and mobile platforms.
 
 🚀 Features
 
@@ -11,7 +11,7 @@ Detects weapons (guns, knives, etc.) from images and video frames.
 
 Detects fire and flames for hazard prevention.
 
-MobileNet-based model for lightweight and efficient performance.
+NASA Net-based model (Xception CNN) for efficient and accurate detection.
 
 Can be deployed on Raspberry Pi, Jetson Nano, or any edge device.
 
@@ -19,15 +19,15 @@ Supports real-time video stream processing.
 
 Generates alerts/notifications when a weapon or fire is detected.
 
-🧠 Algorithm – MobileNet
+🧠 Algorithm – NASA Net (Xception CNN)
 
-MobileNet is a CNN architecture optimized for mobile and embedded vision applications.
+NASA Net is built on the Xception architecture, a deep convolutional neural network optimized for high-accuracy image classification.
 
-Uses depthwise separable convolutions to reduce computation and model size.
+Uses depthwise separable convolutions to significantly reduce computation while improving accuracy.
 
-Provides a balance between speed and accuracy for detection tasks.
+Employs transfer learning from pretrained ImageNet weights, fine-tuned for weapon and fire detection datasets.
 
-Pretrained weights (on ImageNet) are fine-tuned for weapon and fire detection datasets.
+Suitable for real-time applications due to its balance of speed and performance.
 
 📊 Dataset
 
@@ -49,13 +49,13 @@ Military & defense applications for weapon detection.
 
 🔮 Future Enhancements
 
-Add YOLOv8 or EfficientNet for better detection accuracy.
+Add YOLOv8 or EfficientNet for advanced detection.
 
 Deploy as a Flask/Django web app or mobile app.
 
-Integrate with IoT devices for automatic alarms.
+Integrate with IoT devices for automated alarms.
 
-Support for multi-class dangerous object detection.
+Extend to multi-class dangerous object detection.
 
 📖 Documentation
 
