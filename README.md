@@ -57,6 +57,11 @@ Integrate with IoT devices for automatic alarms.
 
 Support for multi-class dangerous object detection.
 
+📖 Documentation
+
+Complete project documentation (including system design, methodology, datasets used, training process, and results) is available inside the docs/ folder as a PDF.
+This documentation can be used for academic submission or as a developer guide.
+
 🤝 Contributing
 
 Contributions are welcome! Please fork this repo and submit a pull request.
